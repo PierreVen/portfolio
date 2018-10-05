@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-web",
+  "version": "1.0.0",
+  "description": "Interactive Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Pierre Venter",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^10.11.0",
+    "node-sass": "^4.9.3"
+  }
+}
