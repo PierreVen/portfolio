@@ -5,6 +5,7 @@
   "main": "index.js",
   "homepage": "https://pierreven.github.io/portfolio",
   "scripts": {
+    "dev": "http-server dist -p 3000 -o",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
