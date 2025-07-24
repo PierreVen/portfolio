@@ -169,7 +169,8 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #eece1a 3px solid;
+    align-self: center; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
